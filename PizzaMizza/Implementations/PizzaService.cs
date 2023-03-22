@@ -163,7 +163,7 @@ namespace PizzaMizza.Implementations
                 {
                     for (int j = 0; j < pizzaIngs.Count; j++)
                     {
-                        Console.WriteLine($"Extra ingredients: {pizzaIngs[j].ToString()}");
+                        Console.WriteLine($"Extra ingredients: {(PizzaIngridents)pizzaIngs[j]}");
                     }
                     
                 }
